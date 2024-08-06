@@ -1,39 +1,42 @@
-import { Nav } from "react-bootstrap";
 import "./Header.scss";
-import { Link } from "react-router-dom";
 
 export const Header = () => {
   return (
     <div id="header">
       <div id="menu">
-        <Link to="/">
+        <a href="/">
           <div id="logo">
             <img src="/images/logo.png" alt="" />
           </div>
-        </Link>
+        </a>
         <div id="divider"></div>
-        <Nav activeKey="/">
-          <Nav.Item>
-            <Link className="nav-link" to="/">
+        <div id="nav">
+          <div className="nav-item">
+            <a className="nav-link" href="/">
               premium
-            </Link>
-          </Nav.Item>
-          <Nav.Item>
-            <Link className="nav-link" to="/pricing">
+            </a>
+          </div>
+          <div className="nav-item">
+            <a className="nav-link" href="/pricing">
               pricing
-            </Link>
-          </Nav.Item>
-          <Nav.Item>
-            <Link className="nav-link" to="about">
+            </a>
+          </div>
+          <div className="nav-item">
+            <a className="nav-link" href="about">
               about
-            </Link>
-          </Nav.Item>
-          <Nav.Item>
-            <Link className="nav-link" to="https://discord.gg" target="_blank">
+            </a>
+          </div>
+          <div className="nav-item">
+            <a
+              className="nav-link"
+              href="https://discord.gg"
+              target="_blank"
+              rel="noreferrer"
+            >
               discord
-            </Link>
-          </Nav.Item>
-        </Nav>
+            </a>
+          </div>
+        </div>
       </div>
       <button>get started risk free</button>
     </div>

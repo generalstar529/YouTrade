@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import "./Footer.scss";
 
 export const Footer = () => {
@@ -6,11 +5,11 @@ export const Footer = () => {
     <div id="footer">
       <div id="container">
         <div id="top-content">
-          <Link to="/">
+          <a href="/">
             <div id="logo">
               <img src="/images/logo.png" alt="" />
             </div>
-          </Link>
+          </a>
           <div id="social-grid">
             <a href="https://twitter.com" className="social-link">
               t
@@ -31,28 +30,29 @@ export const Footer = () => {
             <div id="menu-content">
               <ul id="menu-list">
                 <li className="menu-item">
-                  <Link className="menu-link" to="/">
+                  <a className="menu-link" href="/">
                     PREMIUM
-                  </Link>
+                  </a>
                 </li>
                 <li className="menu-item">
-                  <Link className="menu-link" to="/pricing">
+                  <a className="menu-link" href="/pricing">
                     Pricing
-                  </Link>
+                  </a>
                 </li>
                 <li className="menu-item">
-                  <Link className="menu-link" to="/about">
+                  <a className="menu-link" href="/about">
                     About
-                  </Link>
+                  </a>
                 </li>
                 <li className="menu-item">
-                  <Link
+                  <a
                     className="menu-link"
-                    to="https://discord.gg"
+                    href="https://discord.gg"
                     target="_blank"
+                    rel="noreferrer"
                   >
                     Discord
-                  </Link>
+                  </a>
                 </li>
               </ul>
             </div>

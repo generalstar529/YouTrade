@@ -1,3 +1,5 @@
+import { Discord } from "../components/Discord";
+import { Faqs } from "../components/Faqs";
 import { Motion } from "../components/Motion";
 import { Pricing } from "../components/Pricing";
 import "./Landing.scss";
@@ -167,8 +169,8 @@ export const LandingPage = () => {
         />
       </div>
       <Pricing />
-      <div id="faqs-section"></div>
-      <div id="discord-section"></div>
+      <Faqs />
+      <Discord />
     </>
   );
 };

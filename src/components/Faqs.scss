@@ -1,0 +1,51 @@
+#faqs-section {
+  padding-top: 55px;
+  padding-bottom: 55px;
+  #title-container {
+    max-width: 549px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 24px;
+    padding-right: 24px;
+    text-align: center;
+    h2 {
+      color: white;
+      letter-spacing: -0.01em;
+      margin-top: 0;
+      margin-bottom: 16px;
+      font-size: 42px;
+      font-weight: 700;
+      line-height: 1.31em;
+    }
+  }
+  #content {
+    max-width: 920px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 24px;
+    padding-right: 24px;
+    .MuiAccordion-root {
+      background-color: unset;
+      color: white;
+      .MuiAccordionSummary-root {
+        padding: 26px 0;
+        .MuiAccordionSummary-content {
+          color: whtie;
+          letter-spacing: 0.01em;
+          margin-top: 0;
+          margin-bottom: 0;
+          font-size: 28px;
+          font-weight: 700;
+          line-height: 1.071em;
+        }
+        .MuiSvgIcon-root {
+          fill: white;
+        }
+      }
+      .MuiAccordionDetails-root {
+        padding-left: 0;
+        color: #e0dff1;
+      }
+    }
+  }
+}

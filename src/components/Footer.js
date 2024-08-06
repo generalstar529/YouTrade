@@ -12,9 +12,15 @@ export const Footer = () => {
             </div>
           </Link>
           <div id="social-grid">
-            <a className="social-link"></a>
-            <a className="social-link"></a>
-            <a className="social-link"></a>
+            <a href="https://twitter.com" className="social-link">
+              t
+            </a>
+            <a href="https://www.instagram.com" className="social-link">
+              i
+            </a>
+            <a href="https://www.youtube.com" className="social-link">
+              y
+            </a>
           </div>
         </div>
         <div id="footer-content">

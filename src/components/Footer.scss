@@ -1,0 +1,150 @@
+#footer {
+  background-color: rgba(255, 255, 255, 0);
+  padding-top: 56px;
+  padding-bottom: 32px;
+  #container {
+    max-width: 1246px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 24px;
+    padding-right: 24px;
+    #top-content {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 79px;
+      #social-grid {
+        grid-row-gap: 16px;
+        grid-column-gap: 12px;
+        grid-template-rows: auto;
+        grid-template-columns: auto auto auto;
+        grid-auto-columns: 1fr;
+        display: grid;
+        a.social-link {
+          background-color: rgba(255, 255, 255, 0.1);
+          border-radius: 1000px;
+          justify-content: center;
+          align-items: center;
+          width: 36px;
+          min-width: 36px;
+          height: 36px;
+          font-family: Icons Crypto Template, sans-serif;
+          text-decoration: none;
+          transition: background-color 0.35s, transform 0.35s;
+          display: flex;
+          overflow: hidden;
+        }
+      }
+    }
+    #footer-content {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      #footer-menu {
+        max-width: 577px;
+        margin-right: 20px;
+        #menu-title {
+          border-bottom: 1px solid white;
+          padding-bottom: 29px;
+          h2 {
+            color: white;
+            margin-top: 0;
+            font-weight: 700;
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+            margin-bottom: 0;
+            font-size: 18px;
+            line-height: 1.444em;
+          }
+        }
+        #menu-content {
+          display: flex;
+          margin-top: 35px;
+          ul#menu-list {
+            margin-top: 0;
+            margin-bottom: 0;
+            padding-left: 0;
+            list-style: none;
+            li.menu-item {
+              margin-bottom: 18px;
+              font-size: 14px;
+              line-height: 1.143em;
+              a.menu-link {
+                color: #e0dff1;
+                letter-spacing: 0.1em;
+                text-transform: uppercase;
+                white-space: nowrap;
+                font-size: 14px;
+                line-height: 1.143em;
+                text-decoration: none;
+                transition: color 0.35s;
+              }
+            }
+          }
+        }
+      }
+      #newsletter {
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        display: flex;
+        h2#title {
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          margin-bottom: 12px;
+          font-size: 24px;
+          line-height: 1.375em;
+          display: flex;
+          color: white;
+          letter-spacing: -0.01em;
+          margin-top: 0;
+          font-weight: 700;
+        }
+        #content {
+          width: 100%;
+          max-width: 585px;
+          #newsletter-form {
+            align-items: center;
+            display: flex;
+            position: relative;
+            #newsletter-input {
+              border: 2px none white;
+              background-color: rgba(255, 255, 255, 0.1);
+              color: rgba(255, 255, 255, 0.1);
+              border-radius: 18px;
+              min-height: 90px;
+              padding-left: 36px;
+              padding-right: 190px;
+              font-size: 20px;
+              line-height: 1em;
+              transition: none;
+              margin-bottom: 0;
+              width: 100%;
+            }
+            #newsletter-button {
+              position: absolute;
+              right: 13px;
+            }
+          }
+        }
+      }
+    }
+    #footer-divider {
+      background-color: rgba(255, 255, 255, 0.3);
+      margin-top: 125px;
+      margin-bottom: 32px;
+      width: 100%;
+      height: 1px;
+    }
+    #footer-print {
+      text-align: center;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      font-size: 14px;
+      line-height: 1.143em;
+      color: rgba(255, 255, 255, 0.1);
+      line-height: 1.8em;
+    }
+  }
+}
